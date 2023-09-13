@@ -47,6 +47,8 @@ const Header = () => {
                   <AiFillHome size="36" />
                   <p className="nav-link-content">Home</p>
                 </Link>
+              </li>
+              <li>
                 <Link className="nav-link" to="/about" onClick={() => close()}>
                   <BsInfoCircleFill size="36" />
                   <p className="nav-link-content">About</p>
