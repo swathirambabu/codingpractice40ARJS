@@ -48,9 +48,9 @@ const Header = () => {
                   <p className="nav-link-content">Home</p>
                 </Link>
               </li>
-              <li>
+              <li className="nav-link-item">
                 <Link className="nav-link" to="/about" onClick={() => close()}>
-                  <BsInfoCircleFill size="36" />
+                  <BsInfoCircleFill size="32" />
                   <p className="nav-link-content">About</p>
                 </Link>
               </li>

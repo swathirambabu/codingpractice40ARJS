@@ -3,7 +3,7 @@ import Header from '../Header'
 import './index.css'
 
 const Home = () => (
-  <div className="about-container">
+  <div className="home-container">
     <Header />
     <div className="image-container">
       <img
